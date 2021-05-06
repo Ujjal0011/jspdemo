@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Form</title>
+</head>
+<body>
+	<form action="student-form.jsp">
+		First Name: <input type="text" name="firstName"><br>
+		Last Name: <input type="text" name="lastName"><br>
+		Select Country: 
+		<select name="country">
+			<option>Germany</option>
+			<option>England</option>
+			<option>India</option>
+			<option>SriLanka</option>
+			<option>Bangladesh</option>
+		</select><br>
+		Known Programming Language:<br>
+		<input type="radio" name="knownProgrammingLanguage" value="Java">Java
+		<input type="radio" name="knownProgrammingLanguage" value="C#">C#
+		<input type="radio" name="knownProgrammingLanguage" value="C++">C++
+		<input type="radio" name="knownProgrammingLanguage" value="C">C
+		<br><br>
+		Course Taken:<br>
+		<input type="checkbox" name="courseTaken" value="Discrete Math">Discrete Math
+		<input type="checkbox" name="courseTaken" value="Digital Logic Design">Digital Logic Design
+		<input type="checkbox" name="courseTaken" value="Compiler Construction">Compiler Construction
+		<input type="checkbox" name="courseTaken" value="Numerical Method">Numerical Method
+		<br><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
